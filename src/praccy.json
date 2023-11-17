@@ -1,0 +1,35 @@
+[
+  {
+    "name": "user_table",
+    "deets": [
+      {
+        "C": "PK",
+        "D": "INT",
+        "R": null,
+      },
+      {
+        "C": "user_name",
+        "D": "VARCHAR",
+        "R": null,
+      },
+      {
+        "C": "user_city",
+        "D": "INT",
+        "R": "city_table_PK"
+      }
+    ]
+  },
+  "name": "city_table",
+  "deets" : [
+    {
+      "C": "PK",
+      "D": "INT",
+      "R": null
+    },
+    {
+      "C": "city",
+      "D": "VARCHAR",
+      "R": null
+    }
+  ]
+]
